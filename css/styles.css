@@ -1,0 +1,22 @@
+/*stylesheet for D3-Demo Created by Alissa Stark*/
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 0.9em;
+}
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.nameLine,
+.popLine {
+    font-size: smaller;
+}
